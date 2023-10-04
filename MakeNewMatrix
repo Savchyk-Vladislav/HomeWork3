@@ -1,0 +1,5 @@
+all: main
+
+main: NewMatrix.cpp
+	g++ NewMatrix.cpp -o prog -w
+	./prog

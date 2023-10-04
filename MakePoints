@@ -1,0 +1,5 @@
+all: main
+
+main: Points.cpp
+	g++ Points.cpp -o prog -w
+	./prog

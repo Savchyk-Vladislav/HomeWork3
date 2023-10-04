@@ -1,0 +1,5 @@
+all: main
+
+main: ArrayList.cpp
+	g++ ArrayList.cpp -o prog -w
+	./prog
